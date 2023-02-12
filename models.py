@@ -1,0 +1,9 @@
+from mongoengine import Document, StringField, ListField, IntField
+
+
+class Employee(Document):
+    emp_id = IntField()
+    name = StringField(max_length=100)
+    age = IntField()
+    teams = ListField()
+

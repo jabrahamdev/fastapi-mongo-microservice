@@ -1,0 +1,9 @@
+pylint
+pytest
+click
+black
+pytest-cov
+pydantic
+starlette
+uvicorn
+fastapi
